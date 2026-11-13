@@ -17,6 +17,12 @@
 > by phone) plus AES-GCM for anything we must read back. All five reports are
 > SQL views, so each rule is defined exactly once.
 
+**A note on repo visibility:** this README asks for a *private* repo, while the
+submission form asks for a *publicly accessible* link. I followed the form, since
+that is the live submission channel. Nothing sensitive is committed either way —
+`.gitignore` covers generated data, reports and the database, and the only key in
+the tree is the self-documented development fallback in `crypto.py`.
+
 ---
 
 ## 1. How to run
