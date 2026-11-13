@@ -1,0 +1,5 @@
+[tool.pytest.ini_options]
+# Run the whole suite from a clean clone with a bare `pytest`.
+pythonpath = ["."]
+testpaths = ["solution/tests"]
+addopts = "-q"

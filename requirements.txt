@@ -3,3 +3,8 @@ fastapi>=0.110
 uvicorn>=0.29
 httpx>=0.27
 pytest>=8.0
+
+# Assignment A (Interaction Ledger & Reporting Pipeline)
+# AES-256-GCM encryption + HKDF key derivation for PII at rest. Everything else
+# the pipeline needs is in the standard library (sqlite3, csv, json, hmac).
+cryptography>=42.0

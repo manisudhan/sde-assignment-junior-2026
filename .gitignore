@@ -9,3 +9,7 @@ data_large/
 reports/
 final_state.csv
 .pytest_cache/
+
+# SQLite WAL sidecar files (not matched by *.db)
+*.db-wal
+*.db-shm
